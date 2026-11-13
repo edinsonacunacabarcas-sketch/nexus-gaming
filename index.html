@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="NEXUS GAMING: noticias y novedades de Free Fire, Dragon Ball y videojuegos.">
+  <meta name="theme-color" content="#090d18">
+  <title>NEXUS GAMING | Noticias de videojuegos</title>
+  <style>
+    :root{--bg:#090d18;--panel:#111a2b;--panel2:#17243a;--text:#f4f7ff;--muted:#a9b5ca;--cyan:#38d9ff;--purple:#9b70ff;--line:#26344d}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 80% -10%,#24345b 0,transparent 34%),var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Arial,sans-serif;line-height:1.6}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+    header{position:sticky;top:0;z-index:10;background:#090d18eF;border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}
+    .nav{min-height:70px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{font-size:1.25rem;font-weight:900;letter-spacing:1.4px}.brand span{color:var(--cyan)}
+    nav{display:flex;gap:20px;flex-wrap:wrap}nav a{color:var(--muted);font-size:.93rem}nav a:hover{color:var(--cyan)}
+    .hero{padding:76px 0 58px}.eyebrow{color:var(--cyan);font-size:.78rem;font-weight:800;letter-spacing:2px;text-transform:uppercase}
+    h1{font-size:clamp(2.4rem,7vw,5rem);line-height:1.02;max-width:800px;margin:14px 0}.hero p{max-width:650px;color:var(--muted);font-size:1.08rem}
+    .hero strong{color:white}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}.btn{display:inline-block;padding:11px 18px;border-radius:10px;font-weight:800;background:linear-gradient(100deg,var(--cyan),#7c8dff);color:#07101b}.btn.secondary{background:transparent;border:1px solid var(--line);color:var(--text)}
+    .section-head{display:flex;align-items:end;justify-content:space-between;gap:15px;margin:26px 0 18px}.section-head h2{margin:0;font-size:1.7rem}.section-head p{margin:0;color:var(--muted);font-size:.9rem}
+    .filters{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}.filter{border:1px solid var(--line);background:var(--panel);color:var(--muted);padding:8px 13px;border-radius:999px;cursor:pointer}.filter.active,.filter:hover{background:#17354b;color:var(--cyan);border-color:#267c98}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:linear-gradient(160deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:17px;overflow:hidden;transition:transform .2s,border-color .2s}.card:hover{transform:translateY(-4px);border-color:#4b729c}
+    .art{height:150px;display:grid;place-items:center;font-size:3.4rem;background:radial-gradient(circle at 50% 30%,#344c79,#111a2b 70%)}.card-body{padding:18px}.tag{display:inline-block;font-size:.72rem;font-weight:800;letter-spacing:.8px;color:var(--cyan);text-transform:uppercase}.card h3{font-size:1.15rem;line-height:1.3;margin:8px 0}.card p{color:var(--muted);font-size:.92rem;margin:0 0 15px}.read{color:var(--cyan);font-weight:800;font-size:.9rem;background:none;border:0;padding:0;cursor:pointer}
+    .empty{display:none;color:var(--muted);padding:24px}.about{margin:70px 0 50px;padding:28px;border:1px solid var(--line);border-radius:18px;background:linear-gradient(120deg,#14233a,#101827)}.about h2{margin-top:0}.about p{color:var(--muted);max-width:800px}
+    footer{border-top:1px solid var(--line);padding:25px 0 35px;color:var(--muted);font-size:.9rem}.footer-row{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}.creator{color:var(--text);font-weight:700}
+    .modal{position:fixed;inset:0;background:#02050bdc;display:none;place-items:center;padding:20px;z-index:30}.modal.open{display:grid}.modal-box{max-width:680px;width:100%;background:#111a2b;border:1px solid #344763;border-radius:18px;padding:25px;max-height:85vh;overflow:auto}.modal-box h2{margin:8px 0}.modal-box p{color:var(--muted)}.close{float:right;background:transparent;border:1px solid var(--line);color:white;border-radius:8px;padding:6px 10px;cursor:pointer}
+    @media(max-width:800px){.grid{grid-template-columns:repeat(2,1fr)}.nav{padding:12px 0;align-items:flex-start;flex-direction:column}nav{gap:13px}}
+    @media(max-width:560px){.grid{grid-template-columns:1fr}.hero{padding:55px 0 38px}.section-head{align-items:flex-start;flex-direction:column}.art{height:130px}}
+  </style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <a class="brand" href="#"><span>NEXUS</span> GAMING</a>
+  <nav aria-label="Navegación principal"><a href="#inicio">Inicio</a><a href="#noticias">Noticias</a><a href="#categorias">Categorías</a><a href="#creador">Creador</a></nav>
+</div></header>
+<main>
+  <section class="hero wrap" id="inicio">
+    <div class="eyebrow">Tu portal gamer</div>
+    <h1>El mundo de los videojuegos, <span style="color:var(--cyan)">en un solo lugar.</span></h1>
+    <p>Noticias, novedades y actualizaciones de <strong>Free Fire</strong>, <strong>Dragon Ball</strong> y otros videojuegos. Mantente al día con NEXUS GAMING.</p>
+    <div class="hero-actions"><a class="btn" href="#noticias">Ver noticias</a><a class="btn secondary" href="#creador">Sobre el sitio</a></div>
+  </section>
+  <section class="wrap" id="noticias">
+    <div class="section-head"><div><div class="eyebrow">Últimas publicaciones</div><h2>Noticias destacadas</h2></div><p>Contenido de muestra editable</p></div>
+    <div class="filters" id="categorias">
+      <button class="filter active" data-filter="Todas">Todas</button><button class="filter" data-filter="Free Fire">Free Fire</button><button class="filter" data-filter="Dragon Ball">Dragon Ball</button><button class="filter" data-filter="Otros">Otros juegos</button>
+    </div>
+    <div class="grid" id="newsGrid">
+      <article class="card" data-category="Free Fire"><div class="art">🔥</div><div class="card-body"><span class="tag">Free Fire</span><h3>Novedades y eventos dentro del juego</h3><p>Un espacio para publicar información sobre eventos, novedades y cambios de Free Fire.</p><button class="read" data-title="Free Fire: novedades y eventos" data-content="Aquí puedes escribir la noticia completa sobre eventos, novedades, personajes, modos de juego o actualizaciones de Free Fire. Reemplaza este texto por información confirmada y agrega la fecha de publicación.">Leer noticia →</button></div></article>
+      <article class="card" data-category="Dragon Ball"><div class="art">🐉</div><div class="card-body"><span class="tag">Dragon Ball</span><h3>Noticias del universo Dragon Ball</h3><p>Actualizaciones, videojuegos, personajes y anuncios relacionados con Dragon Ball.</p><button class="read" data-title="Dragon Ball: noticias del universo" data-content="Aquí puedes publicar noticias sobre videojuegos de Dragon Ball, anuncios oficiales, personajes y novedades. Añade siempre la fuente y la fecha para que tus lectores sepan de dónde viene la información.">Leer noticia →</button></div></article>
+      <article class="card" data-category="Otros"><div class="art">🎮</div><div class="card-body"><span class="tag">Otros juegos</span><h3>Lo más interesante del mundo gamer</h3><p>Un lugar para compartir novedades de otros juegos y de la industria de videojuegos.</p><button class="read" data-title="Otros juegos: novedades gamer" data-content="Usa este espacio para publicar noticias de otros videojuegos. Puedes cambiar el título, el resumen y este contenido desde el archivo index.html.">Leer noticia →</button></div></article>
+    </div>
+    <p class="empty" id="empty">No hay noticias en esta categoría todavía.</p>
+  </section>
+  <section class="wrap about" id="creador"><div class="eyebrow">Quiénes somos</div><h2>NEXUS GAMING</h2><p>Un sitio creado para compartir noticias y novedades del mundo de los videojuegos. Este portal es independiente y no está afiliado oficialmente con Garena, Dragon Ball ni otras compañías mencionadas.</p><p class="creator">Creado por Edinson Acuña</p></section>
+</main>
+<footer><div class="wrap footer-row"><span>© <span id="year"></span> NEXUS GAMING</span><span class="creator">Creado por Edinson Acuña</span></div></footer>
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal-box"><button class="close" id="close">Cerrar ✕</button><span class="eyebrow">NEXUS GAMING</span><h2 id="modalTitle"></h2><p id="modalText"></p></div></div>
+<script>
+  const filters=[...document.querySelectorAll('.filter')], cards=[...document.querySelectorAll('.card')], empty=document.getElementById('empty');
+  filters.forEach(btn=>btn.addEventListener('click',()=>{filters.forEach(b=>b.classList.remove('active'));btn.classList.add('active');let shown=0;cards.forEach(card=>{const visible=btn.dataset.filter==='Todas'||card.dataset.category===btn.dataset.filter;card.style.display=visible?'':'none';if(visible)shown++});empty.style.display=shown?'none':'block'}));
+  const modal=document.getElementById('modal');document.querySelectorAll('.read').forEach(btn=>btn.addEventListener('click',()=>{document.getElementById('modalTitle').textContent=btn.dataset.title;document.getElementById('modalText').textContent=btn.dataset.content;modal.classList.add('open')}));
+  function closeModal(){modal.classList.remove('open')}document.getElementById('close').addEventListener('click',closeModal);modal.addEventListener('click',e=>{if(e.target===modal)closeModal()});document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});document.getElementById('year').textContent=new Date().getFullYear();
+</script>
+</body></html>
